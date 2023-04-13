@@ -52,10 +52,7 @@ svg {
 
 }
 
-input,button{
-    background-color: var(--clr-3);
-    color: var(--clr-5);
-    padding: 20px;
-    font-size: 20px;
-    font-weight: 600;
+ul{
+    list-style: none;
 }
+
