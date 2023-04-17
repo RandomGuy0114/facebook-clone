@@ -78,6 +78,12 @@
         justify-content: space-evenly;
         align-items: center;
         gap: 1rem;
+        
+    }
+    .header__logo {
+        user-select: none;
+        font-weight: 800;
+        font-size: var(--size-6xl);
     }
 
     .header__btn {
@@ -90,6 +96,8 @@
 
     .header-pc {
         display: unset;
+        background-color: var(--clr-2);
+padding: 0;
     }
 
     .header-pc__container {
@@ -97,6 +105,9 @@
         display: flex;
         justify-content: start;
         gap: 20%;
+        background-color: var(--clr-2);
+        padding: 1rem;
+        margin: 0;
     }
 
     .header-pc__search-wrapper {
