@@ -1,6 +1,5 @@
 .header {
-    position: fixed;
-    z-index: 1;
+    
     background-color: var(--clr-2);
     border: solid 2px var(--clr-3);
 }
