@@ -48,25 +48,29 @@
 
 }
 
+.section{
+    margin-top: 5rem;
+}
+
 
 
 /* mobile screen */
 @media(min-width:475px) {
     .container {
-        max-width: 475px;
+        max-width: 100%;
     }
 }
 
 /* tablet screen */
 @media(min-width:768px) {
     .container {
-        max-width: 768px;
+        max-width: 100%;
     }
 }
 
 /* pc screen */
 @media(min-width:1280px) {
     .container {
-        max-width: 1280px;
+        max-width: 100%;
     }
 }
